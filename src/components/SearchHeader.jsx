@@ -11,7 +11,7 @@ const SearchHeader = () => {
     <header className="sticky top-0 bg-white">
       <div className="flex w-full p-6 items-center justify-between">
         <Link href={"/"}>
-          <div className="relative w-[60px] h-[40px] border">
+          <div className="flex justify-center items-center relative w-[60px] h-[40px] md:w-[120px] md:h-[60px]">
             <Image
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/375px-Google_2015_logo.svg.png"
               alt={"Google Logo"}
